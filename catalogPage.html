@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Каталог игр</title>
+</head>
+
+<body>
+    <div class="background-header">
+        <header class="container">
+            <a href="/mainPage.html"><img src="/Photoes/Icons/Logo-shop.png" alt="Logo" class="Logo-dice-text"></a>
+            <a href="/catalogPage.html"><button class="button-catalog">Каталог</button></a>
+            <form action="">
+                <input value="" placeholder="Поиск">
+                <button><img src="/Photoes/Icons/Header-icon-search.png" alt="Logo-search"
+                        class="search-button"></button>
+            </form>
+            <a href="#footer-contacts"><img src="/Photoes/Icons/Header-icon-contacts.png" alt="Icons-contacts"></a>
+            <a href="/entrance.html"><img src="/Photoes/Icons/Header-icon-shopping-cart.png" alt="Icons-shopping-cart"></a>
+            <a href="/entrance.html"><img src="/Photoes/Icons/Header-icon-user.png" alt="Icons-user"></a>
+        </header>
+    </div>
+    <main>
+        <div class="container title-catalog">
+            <h1>Каталог</h1>
+        </div>
+        <div class="catalog-page-content">
+            <section id="filter">
+                <div class="container">
+                    <details class="details">
+                        <summary class="details-title">Жанр</summary>
+                        <div class="details-content">
+                            <label>
+                                <input type="checkbox" name="genre">
+                                Стратегия
+                            </label>
+                            <label>
+                                <input type="checkbox" name="genre">
+                                Ролевые игры
+                            </label>
+                            <label>
+                                <input type="checkbox" name="genre">
+                                Соревновательные
+                            </label>
+                            <label>
+                                <input type="checkbox" name="genre">
+                                Карточные
+                            </label>
+                            <label>
+                                <input type="checkbox" name="genre">
+                                Другое
+                            </label>
+                        </div>
+                    </details>
+                    <details class="details">
+                        <summary class="details-title">Возраст</summary>
+                        <div class="details-content">
+                            <label>
+                                <input type="checkbox" name="age">
+                                Дети
+                            </label>
+                            <label>
+                                <input type="checkbox" name="age">
+                                Подростки
+                            </label>
+                            <label>
+                                <input type="checkbox" name="age">
+                                Взрослые
+                            </label>
+                    </details>
+                    <details class="details">
+                        <summary class="details-title">Наличие</summary>
+                        <div class="details-content">
+                            <label>
+                                <input type="checkbox" name="availability">
+                                В наличие
+                            </label>
+                            <label>
+                                <input type="checkbox" name="availability">
+                                В очереди
+                            </label>
+                        </div>
+                    </details>
+                    <details class="details">
+                        <summary class="details-title">Количество игроков</summary>
+                        <div class="details-content">
+                            <label>
+                                <input type="checkbox" name="quantity">
+                                Одиночка
+                            </label>
+                            <label>
+                                <input type="checkbox" name="quantity">
+                                Для двоих
+                            </label>
+                            <label>
+                                <input type="checkbox" name="quantity">
+                                Для маленьких компаний
+                            </label>
+                            <label>
+                                <input type="checkbox" name="quantity">
+                                Для больших компаний
+                            </label>
+                        </div>
+                    </details>
+                    <details class="details">
+                        <summary class="details-title">Длительность игры</summary>
+                        <div class="details-content">
+                            <label>
+                                <input type="checkbox" name="time">
+                                Менее 30 минут
+                            </label>
+                            <label>
+                                <input type="checkbox" name="time">
+                                30-60 минут
+                            </label>
+                            <label>
+                                <input type="checkbox" name="time">
+                                1-2 часа
+                            </label>
+                            <label>
+                                <input type="checkbox" name="time">
+                                Более 2 часов
+                            </label>
+                        </div>
+                    </details>
+                    <div class="filer-price">
+                        <h3>Цена, ₽</h3>
+                        <form action="">
+                            <p>От</p>
+                            <input value="" placeholder="">
+                            <p>- До</p>
+                            <input value="" placeholder="">
+                        </form>
+                    </div>
+                    <div class="button-filter-catalog">
+                        <button class="apply-a-filter">Применить фильтр</button>
+                        <button class="reset-the-filter">Сбросить фильтр</button>
+                    </div>
+                </div>
+            </section>
+            <section id="catalog-products">
+                <div class="container">
+                    <div class="catalog-content">
+                        <div class="catalog-products-cards">
+                            <div class="catalog-products-cards-line">
+                                <div class="card-goods">
+                                    <img src="/Photoes/Photo-catalog/Photo-bunker.png" alt="">
+                                    <h3>Бункер</h3>
+                                    <p>Цена: <b>2990 ₽</b></p>
+                                    <button>Купить</button>
+                                </div>
+                                <div class="card-goods">
+                                    <img src="/Photoes/Photo-catalog/Photo-manchiki.png" alt="">
+                                    <h3>Манчкин</h3>
+                                    <p>Цена: <b>1190 ₽</b></p>
+                                    <button>Купить</button>
+                                </div>
+                            </div>
+                            <div class="catalog-products-cards-line">
+                                <div class="card-goods">
+                                    <img src="Photoes/Photo-catalog/Photo-imagenarium.png" alt="">
+                                    <h3>Имаджинариум</h3>
+                                    <p>Цена: <b>1990 ₽</b></p>
+                                    <button>Купить</button>
+                                </div>
+                                <div class="card-goods">
+                                    <img src="/Photoes/Photo-catalog/Photo-everdell.png" alt="">
+                                    <h3>Эверделл</h3>
+                                    <p>Цена: <b>5990 ₽</b></p>
+                                    <button>Купить</button>
+                                </div>
+                            </div>
+                            <div class="catalog-products-cards-line">
+                                <div class="card-goods">
+                                    <img src="/Photoes/Photo-catalog/Photo-Valera's-time.png" alt="">
+                                    <h3>Время Валеры</h3>
+                                    <p>Цена: <b>2990 ₽</b></p>
+                                    <button>Купить</button>
+                                </div>
+                                <div class="card-goods">
+                                    <img src="/Photoes/Photo-catalog/Photo-black-book.png" alt="">
+                                    <h3>Чёрная Книга</h3>
+                                    <p>Цена: <b>4990 ₽</b></p>
+                                    <button>Купить</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-show-more">
+                            <button>Показать еще</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <section id="footer-contacts">
+            <div class="container">
+                <h1>Контакты</h1>
+                <div class="footer">
+                    <div class="footer-contacts-logo">
+                        <a href="/mainPage.html"><img src="/Photoes/Icons/Logo-shop.png" alt="Logo"></a>
+                    </div>
+                    <div class="footer-contacts-info">
+                        <div class="footer-contacts-info-phone">
+                            <img src="/Photoes/Icons/Footer-contacts-icon-phone.png" alt="phone">
+                            <p>+7 (916) 254-54-54</p>
+                        </div>
+                        <div class="footer-contacts-info-email">
+                            <img src="/Photoes/Icons/Footer-vontacts-icon-email.png" alt="email">
+                            <p>GameShelf@yandex.ru</p>
+                        </div>
+                    </div>
+                    <div class="footer-contacts-social-networks">
+                        <div class="footer-contacts-social-network-column1">
+                            <img src="/Photoes/Icons/Footer-contacts-icon-twiter.png" alt="twiter">
+                            <img src="/Photoes/Icons/Footer-contacts-icon-WhatsApp.png" alt="WhatsApp">
+                        </div>
+                        <div class="footer-contacts-social-network-column2">
+                            <img src="/Photoes/Icons/Footer-contacts-icon-telegram.png" alt="telegram">
+                            <img src="/Photoes/Icons/Footer-contacts-icon-vk.png" alt="vk">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
