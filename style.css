@@ -57,6 +57,7 @@ button {
     border-radius: 15px;
     font-size: 35px;
     font-weight: 400;
+    border: #000000 1px solid;
 }
 
 button:hover {
@@ -548,9 +549,8 @@ input[type="checkbox"] {
     justify-content: space-between;
 }
 
-#form-cover label input{
-    width: 40px;
-    height: 40px;
+.checkbox {
+    transform: scale(2);
 }
 
 #form-cover form input {
